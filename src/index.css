@@ -15,7 +15,7 @@
   --color-background: #0f2a1d;
   --color-primary: #375534;
   --color-secondary: #6b9071;
-  --color-text-primary: #e3eed4;
+  --color-text-primary: #aec3b0;
 }
 /* 
 @theme inline {
@@ -136,6 +136,10 @@
 
 button {
   cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(90%);
 }
 
 button:active {

@@ -1,4 +1,4 @@
-import image from "../assets/oPorto_.jpg";
+import image from "../assets/pic.png";
 
 const SkipCard = ({
   skipItem,

@@ -1,7 +1,12 @@
 import React from "react";
+import SelectSkip from "./components/SelectSkip";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div className="">
+      <SelectSkip />
+    </div>
+  );
 };
 
 export default App;
